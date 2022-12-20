@@ -1,0 +1,11 @@
+apply plugin: "org.sonarqube"
+
+sonarqube {
+    properties {
+        // Insert other SonarQube properties here
+        property 'sonar.projectName', 'bitcoin'
+        property 'sonar.projectKey', 'bitcoin'
+        property 'sonar.login', "sqp_8b92baf6e0686e30483553b6f71018a31d9a48eb"
+        property 'sonar.host.url', 'http://127.0.0.1:9000'
+    }
+}
